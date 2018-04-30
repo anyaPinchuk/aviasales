@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-import Tickets from "./tickets.component";
+import Tickets from "./ticket/tickets.component";
 
 class App extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="grey lighten-3">
           <div className="header">
           </div>
           <Tickets/>
